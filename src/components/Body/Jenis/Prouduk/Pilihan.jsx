@@ -4,12 +4,6 @@ import { useRef } from "react";
 import Card from "./Card/Card";
 
 const Pilihan = () => {
-  const scroll = useRef();
-
-  useEffect(() => {
-    console.log(scroll.current);
-  });
-
   return (
     <div className="mt-10 mb-5">
       <div className="text-start flex justify-between">
@@ -22,7 +16,7 @@ const Pilihan = () => {
         <div>
           <p className="font-medium">Produk pilihan terbaik, hanya untukmu!</p>
         </div>
-        <div ref={scroll} className="w-full overflow-x-auto no-scrollbar ">
+        <div className="w-full overflow-x-auto no-scrollbar ">
           <div className="flex flex-row gap-3 justify-start w-fit">
             <Card />
           </div>

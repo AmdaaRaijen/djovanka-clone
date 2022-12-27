@@ -53,6 +53,7 @@ const Slider = ({ images }) => {
         {images.map((image, index) => {
           return (
             <div
+              key={index}
               onClick={() => setCurrentDot(index)}
               className={`flex gap-1 h-2 w-2 rounded-full bg-slate-600 cursor-pointer  ${
                 index === current ? "bg-blue-500" : ""

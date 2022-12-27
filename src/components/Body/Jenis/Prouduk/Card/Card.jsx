@@ -5,8 +5,8 @@ import Carditem from "./Carditem";
 const Card = () => {
   return (
     <>
-      {Data.map((item) => {
-        return <Carditem item={item} />;
+      {Data.map((item, idx) => {
+        return <Carditem key={idx} item={item} />;
       })}
     </>
   );
