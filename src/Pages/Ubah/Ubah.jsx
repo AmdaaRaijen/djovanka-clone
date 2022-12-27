@@ -3,11 +3,13 @@ import Header from "./Header/Header";
 import Card from "./Card/Card";
 
 const Ubah = () => {
+  const [search, setSearch] = React.useState("");
+  console.log(search);
+
   return (
     <div className="h-screen">
-      <Header />
-      <Card />
-      <h1>UBAH</h1>
+      <Header search={search} setSearch={setSearch} />
+      <Card search={search} />
     </div>
   );
 };

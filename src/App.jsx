@@ -1,7 +1,7 @@
 import "./App.css";
-import Home from "./components/Home/Home";
+import Home from "./Pages/Home/Home";
+import Ubah from "./Pages/Ubah/Ubah";
 import { Route, Routes } from "react-router-dom";
-import Ubah from "./components/Ubah/Ubah";
 
 function App() {
   return (
