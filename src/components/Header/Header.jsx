@@ -2,7 +2,7 @@ import React from "react";
 import { CiShop } from "react-icons/ci";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { BsBoxArrowInRight } from "react-icons/bs";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (

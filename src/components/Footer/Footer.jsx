@@ -5,6 +5,7 @@ import {
   MdHelpOutline,
 } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -22,10 +23,10 @@ const Footer = () => {
           <MdHelpOutline className="w-8 h-8" />
           <a href="/">Bantuan</a>
         </a>
-        <a href="/" className="flex flex-col items-center">
+        <Link to="/login" className="flex flex-col items-center">
           <CgProfile className="w-8 h-8" />
-          <a href="/">Profil</a>
-        </a>
+          <Link to="/login">Profil</Link>
+        </Link>
       </div>
     </div>
   );

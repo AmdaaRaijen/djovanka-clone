@@ -10,7 +10,7 @@ const Bonus = () => {
           <TbReportMoney />
           <div className="flex flex-col items-start gap-1 ml-2">
             <h3 className="text-[13px]">Voucher Kamu</h3>
-            <p className="text-md font-bold">5 Voucher</p>
+            <p className="text-md font-semibold">5 Voucher</p>
           </div>
         </div>
         <hr className="w-[1px] bg-black" />
@@ -18,7 +18,7 @@ const Bonus = () => {
           <AiOutlineStar />
           <div className="flex flex-col items-start gap-1 ml-2">
             <h3 className="text-[13px]">Point</h3>
-            <p className="text-md font-bold">2000 Point</p>
+            <p className="text-md font-semibold">2000 Point</p>
           </div>
         </div>
       </div>
