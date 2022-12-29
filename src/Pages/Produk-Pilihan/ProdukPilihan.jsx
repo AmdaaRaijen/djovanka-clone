@@ -10,7 +10,7 @@ const ProdukPilihan = () => {
     <div>
       <Header />
       <Card />
-      {items.total == 0 ? null : <Cart />}
+      {items.total == 0 ? null : <Cart bottom={"bottom-10"} />}
     </div>
   );
 };

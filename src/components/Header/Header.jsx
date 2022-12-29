@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="shadow-md sticky top-0 bg-white z-10">
       <div className="mx-auto w-[444px] p-4">
-        <div className="mt-3">
+        <div className="">
           <p className="flex text-[10px] font-medium mb-2">
             Kamu berbelanja di
           </p>
@@ -18,7 +18,10 @@ const Header = () => {
               <h3 className="text-[12px] font-bold">Kedai 5</h3>
             </div>
             <div className="flex flex-row gap-1 items-center cursor-pointer">
-              <Link to="/Ubah" className="text-[12px] font-bold text-blue-500 ">
+              <Link
+                to="/Ubah"
+                className="text-[12px] font-semibold text-blue-500 "
+              >
                 Ubah
               </Link>
               <BsBoxArrowInRight className="text-blue-500 " />
@@ -31,7 +34,7 @@ const Header = () => {
             <input
               type="text"
               id="voice-search"
-              className="bg-gray-50 rounded-full text-gray-900 text-sm p- focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-4  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 rounded-full text-gray-900 text-sm p- focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Cari produk  "
               required=""
             />

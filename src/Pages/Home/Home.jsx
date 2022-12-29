@@ -15,6 +15,7 @@ const Home = () => {
       <Bonus />
       <News />
       <Jenis />
+      {items.total > 0 && <Cart bottom={"bottom-24"} />}
       <Footer />
     </>
   );

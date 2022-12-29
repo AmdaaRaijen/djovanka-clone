@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { FaMinusSquare, FaPlusSquare } from "react-icons/fa";
 import { useContext } from "react";
 import { ItemContext } from "../../../context/ItemContext";
 
